@@ -1,0 +1,45 @@
+[
+    {
+        "question": "Em redes, qual é o protocolo orientado a conexão?",
+        "options":{
+            "A": "UDP",
+            "B": "TCP",
+            "C": "ICMP",
+            "D": "ARP"
+        },
+        "answer": "B"
+    },
+
+    {
+        "question": "Quem garante a comunicação fim a fim entre aplicações, cuidando para que os dados chegem da forma esperada",
+        "options": {
+            "A": "Camada de Transporte",
+            "B": "Camada de Rede",
+            "C": "Camada Física",
+            "D": "Camada de Enlace"
+        },
+        "answer": "A"
+    },
+
+    {
+        "question": "Em redes, qual é o protocolo não orientado a conexão?",
+        "options":{
+            "A": "UDP",
+            "B": "TCP",
+            "C": "ICMP",
+            "D": "ARP"
+        },
+        "answer": "A"
+    },
+
+    {
+        "question": "O que é um socket?",
+        "options":{
+            "A": "Um protocolo para rotear pacotes",
+            "B": "Um tipo de endereço IP",
+            "C": "Um dispositivo físico de rede",
+            "D": "Um endereço usado por uma aplicação para conversar com outra"
+        },
+        "answer": "D"
+    }
+]
