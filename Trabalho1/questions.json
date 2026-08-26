@@ -11,14 +11,14 @@
     },
 
     {
-        "question": "Quem garante a comunicação fim a fim entre aplicações, cuidando para que os dados chegem da forma esperada",
+        "question": "Quem garante a comunicação fim a fim entre aplicações, cuidando para que os dados cheguem da forma esperada?",
         "options": {
-            "A": "Camada de Transporte",
+            "A": "Camada de Enlace",
             "B": "Camada de Rede",
             "C": "Camada Física",
-            "D": "Camada de Enlace"
+            "D": "Camada de Transporte"
         },
-        "answer": "A"
+        "answer": "D"
     },
 
     {
@@ -41,5 +41,89 @@
             "D": "Um endereço usado por uma aplicação para conversar com outra"
         },
         "answer": "D"
+    },
+
+    {
+        "question": "Qual a função de uma porta em uma comunicação de rede?",
+        "options":{
+            "A": "Identificar fisicamente o computador na rede",
+            "B": "Determinar o endereço MAC do computador",
+            "C": "Identificar a aplicação ou serviço de destino",
+            "D": "Definir a velocidade da conexão"
+        },
+        "answer": "C"
+    },
+
+    {
+        "question": "Considerando o fluxo de um servidor TCP, qual a função do método bind()?",
+        "options": {
+            "A": "Receber dados do cliente",
+            "B": "Enviar dados para o cliente",
+            "C": "Associar o socket a um endereço IP e a uma porta",
+            "D": "Encerrar a conexão"
+        },
+        "answer": "C"
+    },
+
+    {
+        "question": "Qual sequência representa o estabelecimento de uma conexão TCP?",
+        "options": {
+            "A": "ACK → SYN → SYN-ACK",
+            "B": "FIN → SYN → ACK",
+            "C": "SYN → ACK → FIN",
+            "D": "SYN → SYN-ACK → ACK"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Qual é a principal função de um endereço IP em uma rede?",
+        "options":{
+            "A": "Identificar uma aplicação específica dentro de um computador",
+            "B": "Identificar um host ou interface na rede",
+            "C": "Identificar exclusivamente o protocolo de transporte utilizado",
+            "D": "Identificar uma porta TCP específica"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Qual o protocolo mais adequado para garantir que os dados sejam entregues de forma confiável e na ordem correta?",
+        "options": {
+            "A": "UDP",
+            "B": "TCP",
+            "C": "ARP",
+            "D": "ICMP"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Qual protocolo usar quando a prioridade for comunicação rápida e a perda de alguns dados puder ser tolerada?",
+        "options": {
+            "A": "UDP",
+            "B": "TCP",
+            "C": "ARP",
+            "D": "ICMP"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Considerando o fluxo de um servidor TCP, qual é a função do método listen()?",
+        "options": {
+            "A": "Associar o socket a um endereço IP e uma porta",
+            "B": "Colocar o socket em modo de espera por conexões e definir o número máximo de clientes na fila",
+            "C": "Enviar uma mensagem para o cliente",
+            "D": "Encerrar a conexão com o cliente"
+        },
+        "answer": "B"
+    },
+
+    {
+        "question": "Qual método é utilizado pelo cliente para iniciar uma conexão TCP com o servidor?",
+        "options": {
+            "A": "accept()",
+            "B": "listen()",
+            "C": "connect()",
+            "D": "bind()"
+        },
+        "answer": "C"
     }
 ]
