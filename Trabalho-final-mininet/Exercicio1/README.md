@@ -64,3 +64,8 @@ Entre as imagens estão:
 - Capturas de pacotes com `tcpdump`.
 - Resultados dos testes `iperf` com 30 Mbps e 40 Mbps.
 - Representação ilustrativa da topologia.
+
+## Topologia implementada
+
+![Topologia parte 1](esboco-topologia1.png)
+![Topologia parte 2](esboco-topologia2.png)

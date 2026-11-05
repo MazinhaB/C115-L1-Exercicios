@@ -79,3 +79,7 @@ As capturas de tela dos procedimentos estão organizadas nesta pasta, incluindo:
 - Remoção e configuração das regras OpenFlow.
 - Inspeção das regras instaladas.
 - Testes de ping após a configuração.
+
+## Topologia implementada
+
+![Topologia do exercício 2](ilustracao-topologia.png)
